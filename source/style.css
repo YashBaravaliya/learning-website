@@ -1,0 +1,133 @@
+/* 
+082032
+2C394B
+334756
+FF4C29
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #1d2634;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+nav ol{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* background: #000; */
+    width: auto;
+    margin-right: 10px;
+}
+
+nav ol a{
+    text-align: justify;
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header hr{
+    position: fixed;
+    color: aliceblue;
+    size: 10px;
+    top: 78px;
+    z-index: 1;
+    width: 100%;
+}
+
+p{
+    background: #FF4C29;
+    font-weight: 800;
+    padding: 5px;
+    text-align: center;
+    height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box{
+    background: #334756;
+    color: aliceblue;
+    height: auto;
+    padding: 30px;
+}
+
+.container{
+    width: 60vw;
+    /* border: 10px solid #FF4C29; */
+    margin:  auto;    
+    padding: 20px;
+    margin-top: 110px;
+    top: 110px;
+}
+
+.container ol{
+    list-style: none;
+    font-family: 'Potta One', cursive;
+}
+
+.code{
+    background: #082032 !important;
+}
+
+.dis{
+    font-size: 15px;
+    line-height: 50px;
+}
+
+
+.toolbar-item button{
+    cursor: pointer !important;
+    color: white !important;
+    border: 1px solid white !important;
+    margin-right: 10px;
+    
+}
+
+footer{
+    background: #2C394B;
+    height: 30px;
+    color: aliceblue;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container{
+        width: 80vw;
+        /* background: #000; */
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .box{
+        padding: 20px 0px;
+        
+    }
+    .container{
+        /* background: #000; */
+        width: 100vw;
+        padding: 20px;
+    }
+    
+}
